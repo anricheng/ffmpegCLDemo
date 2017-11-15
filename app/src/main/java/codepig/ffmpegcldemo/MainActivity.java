@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     private VideoView videoPreview;
     private MediaPlayer mPlayer,aPlayer;
     private Bitmap imageBitmap;
-    private Handler mHandler;
+    private static Handler mHandler;
     private SurfaceHolder sfHolder;
     private Uri imageUri=null;
     private Uri audioUri=null;
